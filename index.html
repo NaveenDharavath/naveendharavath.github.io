@@ -2,154 +2,313 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Naveen Dharavath | Data Engineer</title>
-  <meta name="description" content="Naveen Dharavath — Data Engineer specializing in ETL, PySpark, Airflow, AWS, and Snowflake." />
+  <meta name="description" content="Naveen Dharavath — Data Engineer specializing in ETL/ELT, PySpark, Airflow, AWS, and Snowflake." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+ 
+  <div class="bg-orbs" aria-hidden="true">
+    <span class="orb orb-a"></span>
+    <span class="orb orb-b"></span>
+    <span class="orb orb-c"></span>
+  </div>
+
   <header class="container">
-    <div class="hero">
-      <div>
-        <h1>Naveen Dharavath</h1>
-        <p class="subtitle">Data Engineer • ETL/ELT • PySpark • Airflow • AWS • Snowflake</p>
+    <nav class="nav">
+      <div class="brand">
+        <span class="logo">ND</span>
+        <span class="brand-text">Naveen Dharavath</span>
+      </div>
+
+      <div class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a class="pill" href="resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-left">
+        <div class="badge-row">
+          <span class="badge">Python</span>
+          <span class="badge">SQL</span>
+          <span class="badge">PySpark</span>
+          <span class="badge">Airflow</span>
+          <span class="badge">AWS</span>
+          <span class="badge">Snowflake</span>
+        </div>
+
+        <h1>Data Engineer building reliable pipelines & analytics-ready datasets.</h1>
+        <p class="subtitle">
+          I design ETL/ELT workflows, optimize batch and streaming jobs, and deliver curated data models
+          for BI and ML use cases.
+        </p>
 
         <div class="cta">
           <a class="btn" href="mailto:naveendharavath10032000@gmail.com">Email</a>
           <a class="btn btn-ghost" href="https://www.linkedin.com/in/naveen-dharavathde/" target="_blank" rel="noreferrer">LinkedIn</a>
-          <a class="btn btn-ghost" href="https://github.com/naveendharavath" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="btn btn-ghost" href="https://github.com/NaveenDharavath" target="_blank" rel="noreferrer">GitHub</a>
         </div>
 
-        <ul class="meta">
-          <li>📍 USA</li>
-          <li>📞 928-221-8870</li>
-          <li>✉️ naveend102000@gmail.com</li>
-        </ul>
+        <div class="mini-cards">
+          <div class="mini-card">
+            <div class="mini-top">
+              <span class="mini-icon">⛓️</span>
+              <span class="mini-title">Pipelines</span>
+            </div>
+            <p class="mini-value">ETL/ELT • Orchestration</p>
+            <p class="mini-desc">Airflow DAGs, data quality checks, observability</p>
+          </div>
+
+          <div class="mini-card">
+            <div class="mini-top">
+              <span class="mini-icon">☁️</span>
+              <span class="mini-title">Cloud</span>
+            </div>
+            <p class="mini-value">AWS • Snowflake</p>
+            <p class="mini-desc">S3, Glue, Redshift, warehouse modeling</p>
+          </div>
+
+          <div class="mini-card">
+            <div class="mini-top">
+              <span class="mini-icon">⚡</span>
+              <span class="mini-title">Performance</span>
+            </div>
+            <p class="mini-value">Tuning & Cost</p>
+            <p class="mini-desc">Spark optimizations, partitioning, query tuning</p>
+          </div>
+        </div>
       </div>
 
-      <div class="card quick">
-        <h2>Quick Highlights</h2>
-        <ul>
-          <li>3+ years building data pipelines & cloud data platforms</li>
-          <li>Banking + Healthcare domain experience</li>
-          <li>Strong in Python, SQL, PySpark, Airflow, AWS, Snowflake</li>
-        </ul>
-      </div>
-    </div>
-  </header>
-
-  <main class="container">
-    <section class="card">
-      <h2>Professional Summary</h2>
-      <p>
-        Results-oriented Data Engineer with 3+ years of experience designing, building, and optimizing
-        data pipelines, ETL workflows, and cloud-based data infrastructure across banking and healthcare.
-        Skilled in Python, SQL, PySpark, Airflow, AWS, and Snowflake, with expertise in data modeling,
-        orchestration, and real-time analytics enablement.
-      </p>
-    </section>
-
-    <section class="grid">
-      <section class="card">
-        <h2>Skills</h2>
-
-        <div class="chips">
-          <span class="chip">Python</span>
-          <span class="chip">SQL</span>
-          <span class="chip">PySpark</span>
-          <span class="chip">Airflow</span>
-          <span class="chip">AWS (S3, Glue, Lambda, Redshift)</span>
-          <span class="chip">Snowflake</span>
-          <span class="chip">Kafka</span>
-          <span class="chip">Hadoop / Hive</span>
-          <span class="chip">Databricks</span>
-          <span class="chip">Docker</span>
-          <span class="chip">Jenkins</span>
-          <span class="chip">Terraform</span>
-          <span class="chip">Power BI</span>
-          <span class="chip">Tableau</span>
-        </div>
-
-        <div class="skill-groups">
-          <div>
-            <h3>Data Engineering</h3>
-            <p>ETL/ELT, Data Warehousing, Orchestration, Data Quality, Data Modeling</p>
+      <div class="hero-right">
+        
+        <div class="card">
+          <div class="card-head">
+            <h2 class="card-title">Data Pipeline Blueprint</h2>
+            <p class="muted">A typical end-to-end flow I build & maintain.</p>
           </div>
-          <div>
-            <h3>Databases</h3>
-            <p>Snowflake, PostgreSQL, MySQL, MongoDB, Redshift</p>
-          </div>
-          <div>
-            <h3>Cloud</h3>
-            <p>AWS, Azure Data Factory</p>
-          </div>
-        </div>
-      </section>
 
-      <section class="card">
-        <h2>Featured Projects</h2>
-        <p class="muted">Add your GitHub links below (replace the #).</p>
+          <div class="pipeline">
+            
+            <svg viewBox="0 0 820 320" role="img" aria-label="Data pipeline diagram">
+              <defs>
+                <linearGradient id="g1" x1="0" x2="1">
+                  <stop offset="0" stop-color="currentColor" stop-opacity="0.25"/>
+                  <stop offset="1" stop-color="currentColor" stop-opacity="0.05"/>
+                </linearGradient>
+                <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+                  <feDropShadow dx="0" dy="8" stdDeviation="10" flood-opacity="0.35"/>
+                </filter>
+              </defs>
 
-        <div class="project">
-          <div class="project-head">
-            <h3>YouTube Trending Data Pipeline (AWS)</h3>
-            <span class="tag">ETL • Analytics</span>
-          </div>
-          <p>
-            End-to-end pipeline using S3 + Glue (PySpark) + Redshift for analytics-ready datasets and SQL insights.
-          </p>
-          <div class="links">
-            <a href="https://github.com/NaveenDharavath/youtube-data-pipeline" target="_blank" rel="noreferrer">GitHub Repo</a>
-            <a href="#" target="_blank" rel="noreferrer">Demo / Screenshot</a>
+             
+              <rect x="10" y="10" width="800" height="300" rx="18" fill="url(#g1)" stroke="currentColor" stroke-opacity="0.12"/>
+
+              
+              <g filter="url(#shadow)" fill="rgba(255,255,255,0.06)" stroke="currentColor" stroke-opacity="0.18">
+                <rect x="40"  y="70" width="170" height="70" rx="14"/>
+                <rect x="260" y="70" width="170" height="70" rx="14"/>
+                <rect x="480" y="70" width="170" height="70" rx="14"/>
+                <rect x="700" y="70" width="90"  height="70" rx="14"/>
+
+                <rect x="260" y="190" width="170" height="70" rx="14"/>
+                <rect x="480" y="190" width="170" height="70" rx="14"/>
+              </g>
+
+              
+              <g stroke="currentColor" stroke-opacity="0.25" stroke-width="3" fill="none">
+                <path d="M210 105 H260" />
+                <path d="M430 105 H480" />
+                <path d="M650 105 H700" />
+
+                <path d="M345 140 V190" />
+                <path d="M565 140 V190" />
+                <path d="M430 225 H480" />
+              </g>
+
+              
+              <g fill="currentColor" fill-opacity="0.85" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="16">
+                <text x="55" y="98">Ingestion</text>
+                <text x="55" y="122" font-size="13" fill-opacity="0.6">APIs • Files • SaaS</text>
+
+                <text x="275" y="98">Orchestration</text>
+                <text x="275" y="122" font-size="13" fill-opacity="0.6">Airflow • Schedules</text>
+
+                <text x="495" y="98">Transform</text>
+                <text x="495" y="122" font-size="13" fill-opacity="0.6">Spark • PySpark</text>
+
+                <text x="710" y="105">BI</text>
+                <text x="710" y="129" font-size="13" fill-opacity="0.6">Dashboards</text>
+
+                <text x="275" y="218">Data Lake</text>
+                <text x="275" y="242" font-size="13" fill-opacity="0.6">S3 • Raw/Curated</text>
+
+                <text x="495" y="218">Warehouse</text>
+                <text x="495" y="242" font-size="13" fill-opacity="0.6">Snowflake • Redshift</text>
+              </g>
+
+             
+              <g fill="currentColor" fill-opacity="0.22">
+                <circle cx="120" cy="235" r="4"/>
+                <circle cx="150" cy="255" r="3"/>
+                <circle cx="190" cy="215" r="3"/>
+                <circle cx="640" cy="245" r="4"/>
+                <circle cx="610" cy="265" r="3"/>
+                <circle cx="580" cy="225" r="3"/>
+              </g>
+            </svg>
+
+            <div class="pipeline-legend">
+              <span class="legend-item"><span class="dot"></span> Data Quality</span>
+              <span class="legend-item"><span class="dot dot2"></span> Observability</span>
+              <span class="legend-item"><span class="dot dot3"></span> Security</span>
+            </div>
           </div>
         </div>
 
         
+        <div class="card dashboard">
+          <div class="card-head">
+            <h2 class="card-title">Operational Metrics</h2>
+            <p class="muted">Illustrative monitoring view (pipeline health & latency).</p>
+          </div>
+
+          <div class="dash-grid">
+            <div class="stat">
+              <p class="stat-k">Jobs Today</p>
+              <p class="stat-v">128</p>
+              <p class="stat-s">Scheduled • Backfills included</p>
+            </div>
+            <div class="stat">
+              <p class="stat-k">Success Rate</p>
+              <p class="stat-v">99.2%</p>
+              <p class="stat-s">Retries + alerting enabled</p>
+            </div>
+            <div class="stat">
+              <p class="stat-k">Avg Latency</p>
+              <p class="stat-v">6m</p>
+              <p class="stat-s">Source → Warehouse</p>
+            </div>
+            <div class="stat">
+              <p class="stat-k">Cost Trend</p>
+              <p class="stat-v">↓</p>
+              <p class="stat-s">Tuning + partitioning</p>
+            </div>
+          </div>
+
+          <div class="sparkline-wrap">
+            <div class="sparkline" aria-hidden="true"></div>
+            <div class="sparkline" aria-hidden="true"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main class="container">
+    <section class="card" id="projects">
+      <h2>Featured Projects</h2>
+      <p class="muted">No screenshots needed — clean engineering-style cards.</p>
+
+      <div class="projects">
+        <article class="project-card">
+          <div class="proj-top">
+            <h3>YouTube Data Pipeline (AWS)</h3>
+            <span class="pill small">ETL • Analytics</span>
+          </div>
+          <p>
+            End-to-end pipeline using AWS S3 + Glue (PySpark) + Redshift for analytics-ready datasets and SQL insights.
+          </p>
+          <div class="proj-links">
+            <a class="link" href="https://github.com/NaveenDharavath/youtube-data-pipeline" target="_blank" rel="noreferrer">GitHub Repo</a>
+            <span class="sep">•</span>
+            <span class="muted">S3 → Glue → Redshift</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="proj-top">
+            <h3>Data Engineering Case Study</h3>
+            <span class="pill small">Design • Ops</span>
+          </div>
+          <p>
+            A realistic blueprint for building ingestion, validation, and warehouse modeling with monitoring and alerting.
+          </p>
+          <div class="proj-links">
+            <a class="link" href="#experience">See experience</a>
+            <span class="sep">•</span>
+            <span class="muted">Quality • Lineage • Cost</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="grid" id="skills">
+      <section class="card">
+        <h2>Core Skills</h2>
+        <div class="chips">
+          <span class="chip">Python</span><span class="chip">SQL</span><span class="chip">PySpark</span>
+          <span class="chip">Airflow</span><span class="chip">AWS (S3, Glue, Redshift)</span>
+          <span class="chip">Snowflake</span><span class="chip">Kafka</span><span class="chip">Databricks</span>
+          <span class="chip">Data Modeling</span><span class="chip">Data Quality</span><span class="chip">CI/CD</span>
+        </div>
+
+        <div class="two-col">
+          <div>
+            <h3>Data Engineering</h3>
+            <p class="muted">ETL/ELT, orchestration, incremental loads, partitioning, schema evolution.</p>
+          </div>
+          <div>
+            <h3>Analytics Enablement</h3>
+            <p class="muted">Warehouse modeling, semantic views, performance tuning, BI readiness.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Toolbox</h2>
+        <div class="toolbox">
+          <div class="tool"><span>🧱</span><div><b>Batch</b><p class="muted">Spark / Glue Jobs</p></div></div>
+          <div class="tool"><span>🔁</span><div><b>Orchestration</b><p class="muted">Airflow DAGs</p></div></div>
+          <div class="tool"><span>🗃️</span><div><b>Warehouse</b><p class="muted">Snowflake / Redshift</p></div></div>
+          <div class="tool"><span>📈</span><div><b>BI</b><p class="muted">Power BI / Tableau</p></div></div>
+          <div class="tool"><span>🔒</span><div><b>Security</b><p class="muted">IAM / PII controls</p></div></div>
+          <div class="tool"><span>🧪</span><div><b>Quality</b><p class="muted">Checks & alerts</p></div></div>
+        </div>
       </section>
     </section>
 
-    <section class="card">
+    <section class="card" id="experience">
       <h2>Experience</h2>
 
       <div class="timeline">
         <div class="role">
           <div class="role-head">
             <h3>Data Engineer — Fifth Third Bank</h3>
-            <p class="muted">Kentwood, MI • Oct 2024 – Present</p>
+            <p class="muted">Oct 2024 – Present</p>
           </div>
-          <p class="muted">Enterprise Data Platform for Credit Risk & Fraud Analytics</p>
           <ul>
-            <li>Built automated ETL pipelines in <b>PySpark</b> + <b>Apache Airflow</b> for ingestion and transformation of transactions and risk data.</li>
-            <li>Designed data models in <b>Snowflake</b> to support downstream analytics and BI workloads.</li>
-            <li>Implemented an AWS data lake architecture using <b>S3</b>, <b>Glue</b>, and <b>Redshift</b> for scalable storage and querying.</li>
-            <li>Created data validation/quality checks to monitor integrity and latency across ingestion layers.</li>
-            <li>Optimized SQL queries and Spark jobs, improving pipeline performance by <b>35%</b>.</li>
-            <li>Enabled lineage/cataloging with <b>AWS Glue Data Catalog</b> and managed schema evolution.</li>
-            <li>Delivered curated data marts for fraud detection dashboards in <b>Power BI</b>.</li>
-            <li>Automated monitoring/alerts via <b>CloudWatch</b> and custom logging utilities.</li>
-            <li>Supported governance and security requirements (GDPR, Basel III).</li>
+            <li>Built and maintained ETL pipelines with <b>PySpark</b> + <b>Airflow</b>, delivering curated datasets for analytics and reporting.</li>
+            <li>Designed and optimized warehouse models in <b>Snowflake</b> to improve query performance and downstream usability.</li>
+            <li>Implemented validation checks and monitoring patterns for reliability, alerting, and error handling.</li>
           </ul>
-          <p class="stack"><b>Stack:</b> Python, PySpark, Airflow, AWS (S3, Glue, Redshift, Lambda), Snowflake, Jenkins, Power BI, SQL</p>
+          <p class="stack"><b>Stack:</b> Python, PySpark, Airflow, AWS, Snowflake, SQL</p>
         </div>
 
         <div class="role">
           <div class="role-head">
             <h3>Data Engineer — Cyient</h3>
-            <p class="muted">Hyderabad, India • Jun 2021 – Dec 2023</p>
+            <p class="muted">Jun 2021 – Dec 2023</p>
           </div>
-          <p class="muted">Clinical Data Integration and Patient Risk Insights Platform</p>
           <ul>
-            <li>Built ingestion and transformation pipelines for EHR/clinical trial/patient data using <b>Airflow</b>, <b>Python</b>, and <b>SQL</b>.</li>
-            <li>Developed ETL frameworks for structured/unstructured datasets and automated schema mapping.</li>
-            <li>Implemented data quality checks, deduplication, and validation for regulatory compliance (HIPAA).</li>
-            <li>Migrated legacy ETL workloads to <b>AWS Glue</b> + <b>PySpark</b>, improving runtime efficiency and reducing ops costs.</li>
-            <li>Designed Snowflake warehouse structures to support analytics and reporting.</li>
-            <li>Built audit tables and change-data-capture logic to track data flow and lineage.</li>
-            <li>Partnered with BI teams to deliver Power BI dashboards for patient analytics.</li>
-            <li>Integrated CI/CD with <b>Jenkins</b> for pipeline versioning and deployment.</li>
-            <li>Improved processing performance by <b>40%</b> and reduced manual ETL overhead.</li>
+            <li>Developed ingestion and transformation workflows for clinical datasets using <b>Python</b>, <b>SQL</b>, and orchestration.</li>
+            <li>Migrated ETL workloads into cloud-first pipelines and improved operational consistency via automation.</li>
+            <li>Partnered with BI teams to deliver trusted datasets for dashboards and analytics.</li>
           </ul>
-          <p class="stack"><b>Stack:</b> Python, SQL, Airflow, AWS Glue, Snowflake, Jenkins, Power BI, Pandas, PySpark</p>
+          <p class="stack"><b>Stack:</b> Python, SQL, Airflow, AWS Glue, Snowflake</p>
         </div>
       </div>
     </section>
@@ -158,29 +317,19 @@
       <section class="card">
         <h2>Education</h2>
         <ul class="clean">
-          <li><b>M.S. Computer Science</b> — Northern Arizona University (Graduated May 2025)</li>
-          <li><b>B.Tech Computer Science & Engineering</b> — CMR Institute of Technology (Completed 2023)</li>
+          <li><b>M.S. Computer Science</b> — Northern Arizona University (Expected May 2025)</li>
+          <li><b>B.Tech Computer Science & Engineering</b> — CMR Institute of Technology (2023)</li>
         </ul>
       </section>
 
       <section class="card">
-        <h2>Certifications</h2>
-        <ul class="clean">
-          <li>AWS Certified Data Engineer – Associate </li>
-          <li>AWS Certified Machine Learning – Specialty</li>
-          <li>Microsoft Azure Data Engineer Associate (DP-203)</li>
-          <li>Python for Data Science and Data Engineering (Udemy)</li>
-          <li>IBM Data Engineering Professional Certificate</li>
-        </ul>
+        <h2>Contact</h2>
+        <p class="muted">Fastest way to reach me:</p>
+        <div class="contact">
+          <a class="btn" href="mailto:naveend102000@gmail.com">naveend102000@gmail.com</a>
+          <a class="btn btn-ghost" href="resume.pdf" target="_blank" rel="noreferrer">Download Resume</a>
+        </div>
       </section>
-    </section>
-
-    <section class="card">
-      <h2>Resume</h2>
-      <p class="muted">
-        Add your resume PDF into this repo as <code>resume.pdf</code> and this button will work.
-      </p>
-      <a class="btn" href="resume.pdf" target="_blank" rel="noreferrer">Download Resume</a>
     </section>
   </main>
 
